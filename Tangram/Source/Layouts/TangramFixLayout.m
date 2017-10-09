@@ -161,7 +161,7 @@
     self.layoutHeight = self.height;
     if (self.bgImgURL && self.bgImgURL.length > 0) {
         self.bgImageView.frame = CGRectMake(0, 0, self.width, self.height);
-        [self.bgImageView sd_setImageWithURL:[NSURL URLWithString:self.bgImgURL]];
+//        [self.bgImageView sd_setImageWithURL:[NSURL URLWithString:self.bgImgURL]];
     }
     [self.superview bringSubviewToFront:self];
 }
