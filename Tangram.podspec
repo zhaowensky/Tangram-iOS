@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Tangram/Source/**/*.{h,m}'
   
   s.dependency  'LazyScroll', '~>0.0.2'
-  s.dependency  'SDWebImage', '~>3.7'
+  s.dependency  'SDWebImage', '~>4.1.1'
   
 end
